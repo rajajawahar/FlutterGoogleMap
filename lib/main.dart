@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:googlemapflutter/map_view.dart';
 
-void main() => runApp(new MyApp());
+var apiKey = "";
+
+void main() { 
+  MapView.setApiKey(apiKey);
+  runApp(new MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
