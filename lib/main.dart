@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:googlemapflutter/map_view.dart';
+import 'package:googlemapflutter/maps/map_view.dart';
 
 var apiKey = "";
 
